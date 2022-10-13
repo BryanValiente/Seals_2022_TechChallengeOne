@@ -1,0 +1,46 @@
+p {
+    color:cornflowerblue;
+}
+
+img {
+    width: 160px;
+    height: 200px;
+    /* border: solid 1px black;
+    position: relative;
+    animation: img 2s infinite alternate-reverse; */
+}
+h1 {
+    /* color:crimson */
+    /* animation: h1 2s infinite alternate-reverse;  */
+    animation: h1 5s infinite alternate-reverse;
+    animation-delay: 2s;
+    animation-timing-function: ease-out;
+
+}
+li {
+    color:cadetblue
+}
+
+@keyframes img {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 1000px;
+    }
+
+}
+@keyframes h1 {
+    /* from {
+        color: black;
+    }
+    to {
+        color:red;
+    } */
+    0%   {color: black;}
+    25%  {color: orange;}
+    50%  {color: red;}
+    100% {color: gold ;}
+    
+}
