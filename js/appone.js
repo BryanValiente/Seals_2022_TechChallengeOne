@@ -69,13 +69,34 @@
 
 //  for(let i =0; i<10; i++){
 //     console.log(i);
-//  }
+//  } 
+//  cohort[].age<16
 const myFavCars = ["bengi", "julian", "renzo"];
  const myFavPeople = ["bengi", "julian", "renzo"];
 // console.log(myFavCars.length);
 // loops
-for(let i = 0; i < myFavPeople.length; i++){
-    console.log(i);
-    console.log(myFavCars[i])
+// for(let i = 0; i < 16; i++){
+//     console.log(i);
+
+// };
+// for(let pizza of cohort.age){
+//         console.log(pizza);
+//     }
+console.log(cohort[].age)
+// }else (cohort.age<16){
+//     console.log(chort.name)
+//     console.log("is less than 16 years old")
+// };
+
+if (i = 0, i < 16, i++){
+    console.log(i)
+}
+
+var myvar = 1;
+
+if (myvar == 1){
+    console.log("hello world")
+} else {
+    console.log("hello")
 }
 
